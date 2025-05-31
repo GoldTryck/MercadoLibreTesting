@@ -1,5 +1,3 @@
-const { steps } = require("framer-motion");
-
 exports.config = {
   output: "./output",
   helpers: {
