@@ -1,0 +1,18 @@
+{
+  "name": "mercadolibretesting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codeceptjs": "npx codeceptjs run --features"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "allure-codeceptjs": "^3.2.2",
+    "codeceptjs": "^3.7.3",
+    "puppeteer": "^24.9.0"
+  }
+}
