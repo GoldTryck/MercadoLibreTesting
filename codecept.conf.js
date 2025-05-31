@@ -7,6 +7,9 @@ exports.config = {
       windowSize: "1200x900",
       waitForNavigation: ["networkidle0", "domcontentloaded"],
       waitForAction: 2000,
+      browserOptions: {
+        args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      },
     },
   },
   include: {
