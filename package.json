@@ -4,10 +4,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "codeceptjs": "npx codeceptjs run --features"
+    "codeceptjs": "npx codeceptjs run --features",
+    "allure:report": "npx allure generate --clean && npx allure open allure-report"
   },
   "keywords": [],
-  "author": "",
+  "author": "Larios Ponce Hector Manuel",
   "license": "ISC",
   "description": "",
   "devDependencies": {
